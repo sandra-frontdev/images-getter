@@ -16,7 +16,8 @@ class ImageCard extends React.Component {
 		const height = this.imageRef.current.clientHeight;
 		const spans = Math.ceil(height / 150);
 
-		this.setState({spans})
+		this.setState({spans});
+	}
 
 
 	render () {
